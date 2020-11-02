@@ -1,3 +1,121 @@
+.container{
+    padding-top: 100px;
+}
+
+.headimage{
+    height:30vh;
+    width:50vw;  
+    
+  }
+
+    .almuni{
+margin:5vh 5vw 5vh 5vw;
+padding:5vh 5vw 5vh 5vw;
+transition: all 100ms linear;
+}
+
+.photo{
+height:auto;
+width:20vw;
+border-radius: 50%;
+float:left;
+}
+button{
+padding:10px 15px 10px 15px;
+}
+
+
+.call-to-action{
+    display:flex;
+    justify-content: center;
+    
+}
+
+*{
+    box-sizing: border-box;
+}
+.subject-template{
+    padding:5px 5px 5px 5px;
+   
+    border: 1px solid rgba(0, 0, 0, 0.37);
+    box-shadow:1px 1px 10px 1px #888888;
+   
+   
+}
+
+.main-section{
+    padding-top: 5vh;
+    padding-bottom: 10vh;
+}
+
+footer{
+    padding: 20vh 0px 10vh 0px ;
+    background-color:#888888;
+}
+footer a:hover{
+    text-decoration: none;
+}
+      li{
+    list-style-type:none;
+    color:white;
+   transition:color 10ms;
+}
+li:hover{
+  color:black;
+  
+}
+
+* {
+    box-sizing: border-box;
+
+}
+
+.important-text {
+    color: #227aeb;
+}
+
+
+
+.image-fit{
+    width:80px;
+    height:80px;
+    border-radius: 50%;
+    border:1px solid black;
+}
+
+
+.border {
+    width: fit-content;
+    border: 1px solid black;
+    padding: 20px;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-left: 10px;
+}
+
+ footer h5{
+    color:rgba(87, 84, 84, 0.8);
+}
+
+hr{
+    background-color: black;
+    margin-top: 0px;
+    padding:1px;
+}
+.fa{
+    align-self: center;
+    margin-left: 20vw;
+    line-height: 40px;
+    font-size: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    transition:color 10ms;
+}
+.fa:hover{
+    color:green;
+}
+
+
 .headimage{
     height:30vh;
     width:50vw;  
@@ -22,37 +140,4 @@ padding:10px 15px 10px 15px;
 
 
 
-footer{
-    padding: 20vh 0px 10vh 0px ;
-}
-footer a:hover{
-    text-decoration: none;
-}
-      li{
-    list-style-type:none;
-   transition:color 10ms;
-}
-li:hover{
-  color:#1ED760;
-  
-}
- footer h5{
-    color:rgba(87, 84, 84, 0.8);
-}
-hr{
-    background-color: #1ED760;
-    margin-top: 0px;
-    padding:1px;
-}
-.fa{
-    align-self: center;
-    margin-left: 20vw;
-    line-height: 40px;
-    font-size: 50px;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    transition:color 10ms;
-}
-.fa:hover{
-    color:green;
-}
+
